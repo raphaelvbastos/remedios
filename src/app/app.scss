@@ -14,3 +14,55 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+ion-header {
+    background: #444 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.toolbar-background-md {
+    // border-color: #555;
+    border: none;
+    background: #e6a835;
+}
+
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+    background: none;
+}
+
+.scroll-content {
+    background: #eae0a7;
+}
+
+.tabs-md .tabbar {
+    background: #debc2a;
+}
+
+.badge-md {
+    background: #b47a0c;
+}
+
+.botoes {
+    text-align: right;
+}
+
+.tabs-md .tab-button[aria-selected="true"], .tabs-md .tab-button[aria-selected="true"] .tab-button-icon {
+    color: #352609;
+}
+
+.item-md {
+    background: none;
+}
+
+.btnInserir {
+    box-shadow: none;background: #e6a835;
+}
+
+.btnSalvar {
+    box-shadow: none;background: #e4980b;
+}
+
+.btnExcluir {
+    box-shadow: none;background: #a02c2c;
+}

@@ -11,6 +11,16 @@
 </ion-header>
 
 <ion-content padding>
+<<<<<<< HEAD
+=======
+  <!-- <ion-list>
+    <button ion-item *ngFor="let p of periodos" (click)="editar(p.id)">
+      <h2>{{p.nome}}</h2>
+      <p>{{p.hora}}</p>
+    </button>
+  </ion-list> -->
+
+>>>>>>> e31b043ed9c5ed376b2e732697c303d527a1d100
   <ion-list>
     <ion-searchbar [(ngModel)]="terms"></ion-searchbar>
     <ion-card *ngFor="let p of periodos | filtroPeriodos: terms" (click)="editar(p.id)">
@@ -21,11 +31,15 @@
       </ion-card-header>
       <ion-card-content>
         <ion-item>
+<<<<<<< HEAD
           <ion-icon name="partly-sunny"></ion-icon>
           <ion-icon name="sunny"></ion-icon>
           <ion-icon name="cloudy-night"></ion-icon>
           
 
+=======
+          <ion-icon name="cloudy-night"></ion-icon>
+>>>>>>> e31b043ed9c5ed376b2e732697c303d527a1d100
           <!-- <ion-icon name="time" item-start></ion-icon> -->
           <ion-badge item-end>{{p.hora}}</ion-badge>
         </ion-item>
